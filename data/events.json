@@ -563,9 +563,14 @@
       "audience": "all",
       "title": "Start-of-semester department meeting",
       "dateText": "",
-      "description": "The department meets the week before classes start.",
-      "tip": "",
-      "links": []
+      "description": "The department meets the week before classes start. It is the best place to meet colleagues and hear the year's priorities.",
+      "tip": "Bring questions about coordinated courses and your syllabus.",
+      "links": [
+        {
+          "label": "Department page",
+          "url": "https://www.aus.edu/sba/department-of-management-strategy-entrepreneurship"
+        }
+      ]
     },
     {
       "id": "s-syl",
@@ -576,7 +581,7 @@
       "title": "Course Syllabi due",
       "dateText": "Watch for the template email from the Head of Department",
       "description": "Watch your email for the syllabus template from the Head of Department, Dr. Virginia Bodolica. It arrives a few days before Week 0. Send your syllabus to the Head of Department, cc Ms. Abegail Morata, Administrative Assistant. For coordinated courses, your course coordinator approves it first.",
-      "tip": "",
+      "tip": "Start from the department template and check the coordinator's shared materials.",
       "links": [],
       "action": "coordinators"
     },
@@ -664,8 +669,8 @@
       "audience": "all",
       "title": "Midterm grades for at-risk students",
       "dateText": "",
-      "description": "Enter midterm grades in Banner for students who are struggling.",
-      "tip": "Faculty Services > Midterm Grades.",
+      "description": "Enter midterm grades in Banner for students who are struggling, so advisors can reach them early.",
+      "tip": "Faculty Services > Midterm Grades in Banner.",
       "links": [
         {
           "label": "Banner",
@@ -703,8 +708,8 @@
       "audience": "all",
       "title": "Student course evaluations open",
       "dateText": "",
-      "description": "Encourage your students to complete the evaluations.",
-      "tip": "",
+      "description": "Students evaluate courses near the end of the semester. Encourage them to respond, ideally with class time to do it.",
+      "tip": "Confirm the exact window with the department.",
       "links": []
     },
     {
@@ -774,7 +779,7 @@
       "audience": "all",
       "title": "End-of-year department meeting",
       "dateText": "",
-      "description": "Review the year and plan ahead.",
+      "description": "Review the semester, grading and next semester's plans.",
       "tip": "",
       "links": []
     },
@@ -786,8 +791,8 @@
       "audience": "all",
       "title": "End-of-semester email from the Associate Dean",
       "dateText": "About two days before finals",
-      "description": "Attached: final exam policy, CAR form, course file guidelines and declaration form.",
-      "tip": "",
+      "description": "Attached: final exam policy, CAR form, course file guidelines, upload guidelines and declaration form. Every course needs a scheduled assessment in exam week, and grades are posted on iLearn.",
+      "tip": "Read the attachments before you finalize your exam.",
       "links": []
     },
     {
@@ -798,8 +803,8 @@
       "audience": "all",
       "title": "Enter final grades in Banner",
       "dateText": "Within 48 hours of each final exam",
-      "description": "Faculty Services > Final Grades. Post grades on iLearn as well.",
-      "tip": "",
+      "description": "Enter grades through Faculty Services > Final Grades. Grades roll to student history at 10 am, Monday to Thursday.",
+      "tip": "Post grades on iLearn as well.",
       "links": [
         {
           "label": "Banner",
@@ -817,7 +822,12 @@
       "dateText": "",
       "description": "Graduation ceremony for Spring graduates.",
       "tip": "",
-      "links": []
+      "links": [
+        {
+          "label": "Academic calendar",
+          "url": "https://www.aus.edu/academics/services-and-resources/academic-calendar"
+        }
+      ]
     },
     {
       "id": "u-syl",
@@ -1128,8 +1138,8 @@
       "category": "teaching",
       "title": "Final exam schedule",
       "dateText": "",
-      "description": "The Registrar posts the regular and common exam schedules for each semester on its page. Use the guide to read them.",
-      "tip": "The Registrar page lists the current semester's PDFs when they are published.",
+      "description": "The Registrar publishes two schedules each semester: the regular schedule and the common exam schedule. Use the guide to read them. Students must show their AUS ID, and make-up exams run on the last day of the exam period.",
+      "tip": "Tell your students to check both schedules. The Registrar page lists the current semester's PDFs when they are published.",
       "links": [
         {
           "label": "Registrar's Services (final exams)",
@@ -1198,7 +1208,7 @@
       "category": "students",
       "title": "Club fair",
       "dateText": "",
-      "description": "Student clubs recruit new members.",
+      "description": "Student clubs recruit new members. Good for meeting students and the AIMS officers.",
       "links": [
         {
           "label": "Student Life",
@@ -1897,6 +1907,18 @@
       "dateText": "",
       "description": "New faculty receive a mid-semester evaluation of their teaching.",
       "tip": "Ask your Head of Department what the evaluation involves.",
+      "links": []
+    },
+    {
+      "id": "s-commnames",
+      "term": "spring",
+      "week": 10,
+      "category": "students",
+      "audience": "all",
+      "title": "Commencement call for participation",
+      "dateText": "",
+      "description": "Faculty are asked to nominate themselves to attend the commencement ceremony. This is a call for participation, so attendance is not confirmed at this stage.",
+      "tip": "Watch for the email from the Head of Department's office.",
       "links": []
     }
   ],
