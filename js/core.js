@@ -15,7 +15,6 @@
   function addDays(d, n) { return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n); }
   function short(d) { return MONTHS[d.getMonth()] + " " + d.getDate(); }
   function range(a, b) {
-    if (a.getMonth() === b.getMonth()) return MONTHS[a.getMonth()] + " " + a.getDate() + " - " + b.getDate();
     return short(a) + " - " + short(b);
   }
   function today() {

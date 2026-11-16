@@ -80,17 +80,17 @@
       "group": "research"
     },
     {
-      "id": "facresearch",
-      "label": "Faculty research",
-      "desc": "Grants, policies and forms",
-      "url": "https://www.aus.edu/research/faculty-research",
-      "group": "research"
-    },
-    {
       "id": "ilearn",
       "label": "iLearn Research Services",
       "desc": "Grant documents and templates",
       "url": "https://ilearn.aus.edu/ultra/organizations/_49764_1/cl/outline",
+      "group": "research"
+    },
+    {
+      "id": "scopus",
+      "label": "Access Scopus",
+      "desc": "Check journal rankings on Scopus",
+      "url": "https://www.scopus.com/sources.uri?zone=TopNavBar&origin=",
       "group": "research"
     },
     {
@@ -112,42 +112,48 @@
       "label": "MSE Department page",
       "desc": "People, programs and news",
       "url": "https://www.aus.edu/sba/department-of-management-strategy-entrepreneurship",
-      "group": "dept"
+      "group": "dept",
+      "sort": 5
     },
     {
       "id": "dm",
       "label": "Digital Measures",
       "desc": "Annual review and activity record",
       "url": "https://www.digitalmeasures.com/login/aus/faculty/",
-      "group": "dept"
+      "group": "dept",
+      "sort": 1
     },
     {
       "id": "handbook",
       "label": "Faculty Handbook",
       "desc": "July 2024 edition. Check for a newer version",
       "url": "https://aus.edu/sites/default/files/2024_-_faculty_handbook_-_july_8_2024.pdf",
-      "group": "dept"
+      "group": "dept",
+      "sort": 3
     },
     {
       "id": "ithelp",
       "label": "IT Help Desk",
       "desc": "Request IT support (ServiceNow)",
       "url": "https://servicenow.aus.edu",
-      "group": "dept"
+      "group": "dept",
+      "sort": 6
     },
     {
       "id": "rooms",
       "label": "Room Reservation",
       "desc": "Reserve academic and administrative rooms",
       "url": "https://reserve.aus.edu",
-      "group": "dept"
+      "group": "dept",
+      "sort": 7
     },
     {
       "id": "fusion",
       "label": "Oracle Fusion",
       "desc": "HR, finance and procurement: salary slips, bank details, reimbursements and benefits",
       "url": "https://fusion.aus.edu",
-      "group": "dept"
+      "group": "dept",
+      "sort": 4
     },
     {
       "id": "facilities",
@@ -164,10 +170,31 @@
       "group": "campus"
     },
     {
-      "id": "lifeaus",
-      "label": "Life at AUS",
-      "desc": "Student life, health, athletics and graduates",
-      "url": "https://www.aus.edu/life-at-aus",
+      "id": "teledir",
+      "label": "Telephone directory",
+      "desc": "Staff phone numbers. Only accessible from the campus network",
+      "url": "https://teledir.aus.edu",
+      "group": "campus"
+    },
+    {
+      "id": "security",
+      "label": "AUS Security Services",
+      "desc": "Security requests and forms (AUS login required)",
+      "url": "https://forms.aus.edu/app/252032964014853",
+      "group": "campus"
+    },
+    {
+      "id": "entry",
+      "label": "Campus entry request",
+      "desc": "Request entry for visitors",
+      "url": "https://forms.aus.edu/251811793650055",
+      "group": "campus"
+    },
+    {
+      "id": "compass",
+      "label": "AUS Community Compass",
+      "desc": "The new digital home for the AUS employee community: university updates, campus stories and quick access to tools",
+      "url": "https://intranet.aus.edu/",
       "group": "campus"
     }
   ],
@@ -222,13 +249,13 @@
     {
       "course": "MGT 360",
       "name": "",
-      "coordinator": "TBA",
+      "coordinator": "Dr. Jamal Maaloud",
       "email": ""
     },
     {
       "course": "BLW 301",
       "name": "",
-      "coordinator": "TBA",
+      "coordinator": "Dr. John Katsos",
       "email": ""
     },
     {
@@ -376,10 +403,10 @@
       "week": 10,
       "category": "students",
       "audience": "all",
-      "title": "Commencement faculty attendance",
+      "title": "Commencement call for participation",
       "dateText": "",
-      "description": "Faculty are asked to confirm whether they will attend commencement.",
-      "tip": "Watch for the email from the Dean's office.",
+      "description": "Faculty are asked to nominate themselves to attend the commencement ceremony. This is a call for participation, so attendance is not confirmed at this stage.",
+      "tip": "Watch for the email from the Head of Department's office.",
       "links": []
     },
     {
@@ -924,22 +951,6 @@
       ]
     },
     {
-      "id": "y-dm",
-      "term": "year",
-      "category": "dept",
-      "audience": "all",
-      "title": "Keep Digital Measures current",
-      "dateText": "",
-      "description": "Add publications, courses and service as they happen. It feeds your annual review and promotion files.",
-      "tip": "",
-      "links": [
-        {
-          "label": "Digital Measures",
-          "url": "https://www.digitalmeasures.com/login/aus/faculty/"
-        }
-      ]
-    },
-    {
       "id": "y-irb",
       "term": "year",
       "category": "research",
@@ -952,26 +963,6 @@
         {
           "label": "AUS Research",
           "url": "https://www.aus.edu/research"
-        },
-        {
-          "label": "Contact Ms. Indu Madhusudhanan for information",
-          "url": "mailto:imadhusudhanan@aus.edu"
-        }
-      ]
-    },
-    {
-      "id": "y-bulletin",
-      "term": "year",
-      "category": "research",
-      "audience": "all",
-      "title": "Monthly Research Bulletin",
-      "dateText": "First days of each month",
-      "description": "Sent by the Vice Chancellor for Research with funding calls and news.",
-      "tip": "",
-      "links": [
-        {
-          "label": "Faculty research",
-          "url": "https://www.aus.edu/research/faculty-research"
         },
         {
           "label": "Contact Ms. Indu Madhusudhanan for information",
@@ -1040,20 +1031,17 @@
       "term": "year",
       "category": "dept",
       "audience": "new",
-      "title": "Promotion and rolling contract: how the timeline works",
-      "dateText": "",
+      "title": "Promotion and rolling contract",
+      "dateText": "How the timeline works",
       "description": "Second contract: assessed before the last academic year of the first three-year contract. Rolling contract: in-depth review in the sixth year of full-time employment (up to two years of credit may apply). Promotion: eligible after five years in rank, with at least one year under a full-time AUS contract. Early promotion needs a written supporting report. Annual assessments happen at the end of Spring. The Provost sets the exact deadlines at the start of each academic year.",
       "tip": "Ask your Head of Department when your review year is, and keep Digital Measures current.",
       "links": [
         {
           "label": "Faculty Handbook",
           "url": "https://aus.edu/sites/default/files/2024_-_faculty_handbook_-_july_8_2024.pdf"
-        },
-        {
-          "label": "Digital Measures",
-          "url": "https://www.digitalmeasures.com/login/aus/faculty/"
         }
-      ]
+      ],
+      "sort": 2
     },
     {
       "id": "y-speaker",
@@ -1886,6 +1874,30 @@
           "url": "mailto:falhammadi@aus.edu"
         }
       ]
+    },
+    {
+      "id": "f-mideval",
+      "term": "fall",
+      "week": 7,
+      "category": "dept",
+      "audience": "new",
+      "title": "Mid-semester evaluation for new faculty",
+      "dateText": "",
+      "description": "New faculty receive a mid-semester evaluation of their teaching.",
+      "tip": "Ask your Head of Department what the evaluation involves.",
+      "links": []
+    },
+    {
+      "id": "s-mideval",
+      "term": "spring",
+      "week": 7,
+      "category": "dept",
+      "audience": "new",
+      "title": "Mid-semester evaluation for new faculty",
+      "dateText": "",
+      "description": "New faculty receive a mid-semester evaluation of their teaching.",
+      "tip": "Ask your Head of Department what the evaluation involves.",
+      "links": []
     }
   ],
   "guides": {

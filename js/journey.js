@@ -249,15 +249,21 @@
       var links = data.links.filter(function (l) { return l.group === k; });
       if (!items.length && !links.length) return;
       var ul = h("ul", { class: "help-list" });
-      items.forEach(function (e) {
-        ul.appendChild(h("li", null,
-          h("button", { class: "help-link", type: "button", onclick: function () { openEvent(e.id); } }, e.title),
-          e.dateText ? h("span", { class: "help-desc", text: e.dateText }) : null));
-      });
-      links.forEach(function (l) {
-        ul.appendChild(h("li", null,
-          h("a", { href: Core.safeUrl(l.url), target: "_blank", rel: "noopener" }, l.label),
-          l.desc ? h("span", { class: "help-desc", text: l.desc }) : null));
+      var merged = [];
+      items.forEach(function (e, i) { merged.push({ k: "e", o: e, s: typeof e.sort === "number" ? e.sort : 100 + i }); });
+      links.forEach(function (l, i) { merged.push({ k: "l", o: l, s: typeof l.sort === "number" ? l.sort : 200 + i }); });
+      merged.sort(function (a, b) { return a.s - b.s; });
+      merged.forEach(function (m) {
+        var o = m.o;
+        if (m.k === "e") {
+          ul.appendChild(h("li", null,
+            h("button", { class: "help-link", type: "button", onclick: function () { openEvent(o.id); } }, o.title),
+            o.dateText ? h("span", { class: "help-desc", text: o.dateText }) : null));
+        } else {
+          ul.appendChild(h("li", null,
+            h("a", { href: Core.safeUrl(o.url), target: "_blank", rel: "noopener" }, o.label),
+            o.desc ? h("span", { class: "help-desc", text: o.desc }) : null));
+        }
       });
       box.appendChild(h("div", { class: "help-group", style: "--cc:" + cats[k].color },
         h("h3", null, h("span", { class: "sw", style: "background:" + cats[k].color }), cats[k].label), ul));
