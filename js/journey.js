@@ -296,7 +296,7 @@
     pc.appendChild(h("p", { class: "cat", text: c.label }));
     pc.appendChild(h("h3", { id: "ev-title", text: e.title }));
     if (e.dateText) pc.appendChild(h("p", { class: "when", text: e.dateText }));
-    if (e.description) pc.appendChild(h("p", { text: e.description }));
+    if (e.description) pc.appendChild(h("p", { class: "desc", text: e.description }));
     if (e.tip) pc.appendChild(h("p", { class: "tip" }, h("strong", { text: "Tip: " }), e.tip));
     var acts = h("div", { class: "acts" });
     if (e.action === "coordinators") {

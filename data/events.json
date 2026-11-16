@@ -1,7 +1,7 @@
 {
   "meta": {
     "academicYear": "2026-27",
-    "updated": "2026-11-14",
+    "updated": "2026-11-16",
     "note": "Events are placed by the usual week of the semester. Exact dates change every year."
   },
   "categories": {
@@ -452,7 +452,7 @@
     {
       "id": "f-enddm",
       "term": "fall",
-      "week": 13,
+      "week": 14,
       "category": "dept",
       "audience": "all",
       "title": "End-of-semester department meeting",
@@ -686,7 +686,7 @@
       "week": 13,
       "category": "research",
       "audience": "all",
-      "title": "SBA Professional Development Grant",
+      "title": "SBA Professional Development Grant (PDG, also called FCG)",
       "dateText": "",
       "description": "Small grant for professional development. Check the spending deadline before you apply. Submit your reimbursement in Oracle Fusion. Finance sets a year-end deadline for reimbursements each year, announced by email.",
       "tip": "",
@@ -1830,9 +1830,17 @@
       "audience": "all",
       "title": "Applying to attend a conference",
       "dateText": "Contact Ms. Abegail Morata for the forms",
-      "description": "Before you travel to a conference, contact Ms. Abegail Morata, Administrative Assistant in the department, for the forms you need, such as the faculty absence form and the business travel form. Requirements change, so ask early.",
-      "tip": "",
+      "description": "Start with the PDG (also called FCG) application. If you will miss classes, also submit a Faculty Absence Request. For travel you need a Business Travel Authorization Form. File it at least 10 working days before domestic travel and 20 working days before international travel. It asks for your reason for travel, destination and dates, proof of participation such as the invitation or agenda, and a cost estimate with your budget. It needs your Head of Department's approval and a senior officer's authorization, and you cannot approve your own request.\n\nThe AUS Business Travel Procedures explain per diem rates, travel advances (request them 12 to 16 days before you travel) and booking rules. Economy class is the standard.\n\nContact Ms. Abegail Morata to get the Business Travel Authorization Form and the Business Travel Procedures.",
+      "tip": "Apply early. Approvals take time and the deadlines count working days.",
       "links": [
+        {
+          "label": "PDG (FCG) application",
+          "url": "https://forms.aus.edu/team/sba-appraisal/sba-fcg"
+        },
+        {
+          "label": "Faculty Absence Request Form",
+          "url": "https://forms.aus.edu/231981641086864"
+        },
         {
           "label": "Email Ms. Abegail Morata",
           "url": "mailto:abegail@aus.edu"
@@ -1845,9 +1853,9 @@
       "category": "research",
       "audience": "all",
       "title": "After the trip: claim your expenses",
-      "dateText": "Submit in Oracle Fusion",
-      "description": "When you return, submit an expense report in Oracle Fusion to claim your reimbursement. Contact Ms. Abegail Morata, Administrative Assistant in the department, for the forms and steps to follow.",
-      "tip": "",
+      "dateText": "Submit in Oracle Fusion within 90 days",
+      "description": "Claim all expenses in Oracle Fusion under Expenses. Create a report, add one item for each receipt and attach your receipts. Submit within 90 calendar days of the end of your trip. Finance also sets a year-end deadline for reimbursements, announced by email.\n\nWhat you attach depends on the claim:\nPDG (also called FCG): only the approved memo and your certificate of attendance. The amount follows the memo.\nBusiness travel: your receipts and supporting documents such as boarding passes. Per diem is calculated automatically from your destination.\nIDC membership funding: your receipts, up to US$250.\n\nContact Ms. Abegail Morata to get the step-by-step Fusion instructions for each type of claim.",
+      "tip": "Keep every receipt and boarding pass until your claim is approved.",
       "links": [
         {
           "label": "Oracle Fusion",
@@ -1866,12 +1874,16 @@
       "audience": "all",
       "title": "Taking students on a field trip",
       "dateText": "Contact Ms. Abegail Morata for the forms",
-      "description": "Before you take students on a field trip, contact Ms. Abegail Morata, Administrative Assistant in the department, for the forms and approvals you need.",
-      "tip": "",
+      "description": "Field trips are within the UAE. Three forms are involved.\n\nStudy Tour Application: describes the tour, destination, dates, number of students, cost per student and the academic benefit. It needs the signatures of the organizer, your Head of Department (or the Associate Dean for school-wide activities) and the Dean, at the latest one week before departure. An AUS faculty member must accompany the students for the whole trip. The final list of participants is due 48 hours before departure.\n\nAgreement and Liability Waiver: every student signs it. Submit the signed waivers to the Associate Dean's Office (Ms. Fatima Alhammadi, Senior Administrative Assistant) at least 3 days before the event.\n\nTransportation Request Form (Fleet Management Services): needed to book a driver and vehicle. The driver's hourly rate, parking and the driver's meals are charged to your department cost center, so confirm your budget first.\n\nContact Ms. Abegail Morata to get all three forms.",
+      "tip": "Allow more than a week: you need signatures before you can plan the trip.",
       "links": [
         {
           "label": "Email Ms. Abegail Morata",
           "url": "mailto:abegail@aus.edu"
+        },
+        {
+          "label": "Email Ms. Fatima Alhammadi",
+          "url": "mailto:falhammadi@aus.edu"
         }
       ]
     }
