@@ -199,7 +199,7 @@
     },
     {
       "id": "sbaguidelines",
-      "label": "SBA Guidelines for Faculty Evaluation, Promotion and Rolling Contract Decisions 2024",
+      "label": "SBA Guidelines for Faculty Evaluation, Promotion and Rolling Contract Decisions 2024 v9 Final",
       "desc": "Download the criteria used for annual evaluation, promotion and rolling contract decisions (PDF)",
       "url": "docs/SBA_Guidelines_for_Faculty_Evaluation_Promotion_and_Rolling_Contract_Decisions_2024_v9_Final.pdf",
       "group": "dept",
@@ -1075,12 +1075,16 @@
       "category": "teaching",
       "title": "Inviting a guest speaker",
       "dateText": "Contact Ms. Abegail Morata",
-      "description": "Before you invite a guest speaker, contact Ms. Abegail Morata, Administrative Assistant in the department, for the current forms and process. They change often, so ask before you plan. Office extension 2302.",
-      "tip": "Submit at least two weeks before the event for approval.",
+      "description": "Email the below details to Gail and she will secure the approval of the Office of Protocol.\nGuest Name:\nEvent Name:\nCourse:\nEvent date:\n\nAfter this has been received, email the online Speaker Approval Form to your guest(s) to submit their documents and information.\nIt can take up to 10 days to process this, so please submit ahead of time.",
+      "tip": "Submit ahead of time, since approval can take up to 10 days.",
       "links": [
         {
-          "label": "Email Ms. Abegail Morata",
-          "url": "mailto:abegail@aus.edu"
+          "label": "Email Gail the details",
+          "url": "mailto:abegail@aus.edu?subject=Guest%20speaker%20approval%20request&body=Guest%20Name%3A%20%0AEvent%20Name%3A%20%0ACourse%3A%20%0AEvent%20date%3A%20"
+        },
+        {
+          "label": "Speaker Approval Form",
+          "url": "https://forms.aus.edu/233531231155849"
         }
       ],
       "audience": "all"
