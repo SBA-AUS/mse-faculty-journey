@@ -90,7 +90,7 @@
   }
 
   function safeUrl(u) {
-    return /^(https?:|mailto:|tel:)/i.test(u || "") ? u : "#";
+    return /^(https?:|mailto:|tel:|docs\/)/i.test(u || "") ? u : "#";
   }
 
   window.Core = {

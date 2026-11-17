@@ -196,6 +196,14 @@
       "desc": "The new digital home for the AUS employee community: university updates, campus stories and quick access to tools",
       "url": "https://intranet.aus.edu/",
       "group": "campus"
+    },
+    {
+      "id": "sbaguidelines",
+      "label": "SBA Guidelines for Faculty Evaluation, Promotion and Rolling Contract Decisions 2024 v9 Final",
+      "desc": "Download the criteria used for annual evaluation, promotion and rolling contract decisions (PDF)",
+      "url": "docs/SBA_Guidelines_for_Faculty_Evaluation_Promotion_and_Rolling_Contract_Decisions_2024_v9_Final.pdf",
+      "group": "dept",
+      "sort": 0
     }
   ],
   "terms": {
@@ -768,6 +776,10 @@
         {
           "label": "Digital Measures",
           "url": "https://www.digitalmeasures.com/login/aus/faculty/"
+        },
+        {
+          "label": "Download the SBA evaluation guidelines (PDF)",
+          "url": "docs/SBA_Guidelines_for_Faculty_Evaluation_Promotion_and_Rolling_Contract_Decisions_2024_v9_Final.pdf"
         }
       ]
     },
@@ -1049,6 +1061,10 @@
         {
           "label": "Faculty Handbook",
           "url": "https://aus.edu/sites/default/files/2024_-_faculty_handbook_-_july_8_2024.pdf"
+        },
+        {
+          "label": "Download the SBA promotion and rolling contract guidelines (PDF)",
+          "url": "docs/SBA_Guidelines_for_Faculty_Evaluation_Promotion_and_Rolling_Contract_Decisions_2024_v9_Final.pdf"
         }
       ],
       "sort": 2
@@ -1920,6 +1936,23 @@
       "description": "Faculty are asked to nominate themselves to attend the commencement ceremony. This is a call for participation, so attendance is not confirmed at this stage.",
       "tip": "Watch for the email from the Head of Department's office.",
       "links": []
+    },
+    {
+      "id": "s-symposium",
+      "term": "spring",
+      "week": 9,
+      "category": "research",
+      "audience": "all",
+      "title": "Entrepreneurship Bridge Symposium: From Research to Practice",
+      "dateText": "March 17, 2027",
+      "description": "Hosted by the Entrepreneurship and Community-Driven Social Change research group. The symposium brings research and practice together.",
+      "tip": "Contact Ms. Indu Madhusudhanan for information.",
+      "links": [
+        {
+          "label": "Contact Ms. Indu Madhusudhanan for information",
+          "url": "mailto:imadhusudhanan@aus.edu"
+        }
+      ]
     }
   ],
   "guides": {
